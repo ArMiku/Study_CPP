@@ -22,7 +22,7 @@ int main() {
     string temp_n;
     double temp_d;
     ifstream inFile;
-    inFile.open("Chapter VI: Branching Statements and Logical Operators/6_6.txt", ios::in);
+    inFile.open("Chapter 6: Branching Statements and Logical Operators/6_6.txt", ios::in);
     inFile >> n;
     inFile.get();
     vector<MemberInfo> members;
