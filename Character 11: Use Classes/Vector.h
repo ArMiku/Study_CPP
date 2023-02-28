@@ -23,6 +23,10 @@ namespace VECTOR
         void set_ang();
         void set_x();
         void set_y();
+        double get_mag() const;
+        double get_ang() const;
+        double get_x();
+        double get_y();
     public:
         Vector();
         Vector(double n1, double n2, Mode form = RECT);
